@@ -1,0 +1,27 @@
+
+
+.album {
+    margin: 5px;
+}
+
+.album > .card {
+    width: 200px;
+    transition: background-color 0.5s;
+}
+
+.album > .card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 90, 0.1);
+}
+
+.album-item-active {
+    background-color: rgba(0, 0, 90, 0.1);
+}
+
+.header p {
+    font-size: 13px!important;
+    padding-top: 7px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
